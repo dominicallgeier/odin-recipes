@@ -1,0 +1,65 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hero {
+    background-color: #e9edc9;
+    color: #283618;
+    text-align: center;
+    
+}
+
+.hero-nav {
+    
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+    font-size: 30px;
+
+}
+
+a {
+    color: #283618;
+}
+
+a:link {
+    text-decoration: none;
+    
+}
+
+a:hover {
+    
+    text-decoration: underline #283618;
+    color: #283618;
+    
+}
+
+.food-body {
+    background-color: #e9edc9;
+    color: #283618;
+}
+
+/*images*/
+
+#chef {
+   width: 600px;
+   height: auto;
+   box-shadow: 10px 10px 10px #283618;
+}
+
+.food-img {
+    width: 300px;
+    height: auto;
+}
+
+/*btn*/
+.home-btn {
+    font-size: 30px;
+    color: #283618;
+    border: 2px solid #283618;
+    border-radius: 10px;
+    padding: 5px 10px;
+    
+}
+
